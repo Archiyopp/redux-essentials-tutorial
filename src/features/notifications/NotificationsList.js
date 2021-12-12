@@ -9,7 +9,7 @@ import {
   selectAllNotifications,
   allNotificationsRead,
 } from './notificationsSlice'
-import { useAppSelector } from '../../app/store'
+import { useAppSelector } from '../../app/hooks'
 
 export const NotificationsList = () => {
   const dispatch = useDispatch()

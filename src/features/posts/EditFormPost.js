@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { useHistory, useParams } from 'react-router-dom'
-import { useAppDispatch, useAppSelector } from '../../app/store'
+import { useAppDispatch, useAppSelector } from '../../app/hooks'
 
 import { postUpdated, selectPostById } from './postSlice'
 

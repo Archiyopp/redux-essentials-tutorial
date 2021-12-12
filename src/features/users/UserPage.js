@@ -2,7 +2,7 @@ import React from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { selectUserById } from '../users/usersSlice'
 import { selectPostsByUser } from '../posts/postSlice'
-import { useAppSelector } from '../../app/store'
+import { useAppSelector } from '../../app/hooks'
 
 export const UserPage = () => {
   const { userId } = useParams()

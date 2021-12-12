@@ -4,7 +4,7 @@ import {
   fetchNotifications,
   selectAllNotifications,
 } from '../features/notifications/notificationsSlice'
-import { useAppDispatch, useAppSelector } from './store'
+import { useAppDispatch, useAppSelector } from './hooks'
 
 export const Navbar = () => {
   const dispatch = useAppDispatch()

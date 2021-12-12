@@ -1,5 +1,5 @@
 import React from 'react'
-import { useAppDispatch } from '../../app/store'
+import { useAppDispatch } from '../../app/hooks'
 import { reactionAdded } from './postSlice'
 
 const reactionEmoji = {
